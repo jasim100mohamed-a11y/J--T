@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasim و Tala - حكاية حب خالدة</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- خلفية قلوب متحركة -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <span>Jasim & Tala</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="#story" class="nav-link"><i class="fas fa-book-heart"></i> قصتنا</a></li>
+                <li><a href="#poetry" class="nav-link"><i class="fas fa-feather"></i> كلمات الغزل</a></li>
+                <li><a href="#messages" class="nav-link"><i class="fas fa-envelope-open-heart"></i> رسائل الحب</a></li>
+                <li><a href="#quotes" class="nav-link"><i class="fas fa-quote-right"></i> اقتباسات</a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> ذكرياتنا</a></li>
+
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text animate-fade-in">
+                <h1 class="hero-title">
+                    <span class="name">Jasim</span>
+                    <i class="fas fa-heart heart-icon"></i>
+                    <span class="name">Tala</span>
+                </h1>
+                <p class="hero-subtitle">حكاية حب كُتبت </p>
+                <p class="hero-description">
+                    عندما يلتقي قلبان بقدر الحب، تُولد حكاية لا تُنسى<br>
+                    هذه قصتنا... قصة حب  تتجاوز الزمان والمكان
+                </p>
+                <div class="hero-buttons">
+                    <a href="#story" class="btn btn-primary">
+                        <i class="fas fa-book-open"></i>
+                        اقرأ قصتنا
+                    </a>
+                    <a href="#poetry" class="btn btn-secondary">
+                        <i class="fas fa-heart"></i>
+                        كلمات الغزل
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم قصة الحب -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-book-heart"></i>
+                    قصة حبنا 
+                </h2>
+                <p class="section-subtitle">حكاية بدأت بنظرة وتحولت إلى أبدية</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item left" data-animate="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                      
+                        <span class="timeline-date">فصل الربيع - بداية الحكاية</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item right" data-animate="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                        <h3>أول حديث</h3>
+                        <p class="story-text">
+                            عندما تحدثنا لأول مرة، شعرت وكأنني أعرفها منذ الأزل. كلماتها كانت كالشعر، ترقص على أوتار قلبي.
+                            حدثتني عن أحلامها، عن شغفها بالحياة، عن نظرتها للحب بعيون مليئة بالأمل.
+                            كل كلمة نطقتها كانت تزرع في قلبي بذرة حب جديدة. كنت أستمع إليها وأنا أسبح في بحر من المشاعر الجميلة.
+                            في تلك اللحظات، أدركت أنني وجدت روحي التوأم، وجدت من تكمل نصفي الآخر.
+                        </p>
+                        <span class="timeline-date">الأيام الأولى من اللقاء</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item left" data-animate="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>الاعتراف بالحب</h3>
+                        <p class="story-text">
+                            جاءت لحظة الاعتراف كنسيم عليل في ليلة قمرية ساحرة. قلت لها بكل ما أملك من مشاعر:
+                            "يا Tala، أنتِ النور الذي أضاء ظلمة حياتي، أنتِ الأمل الذي كنت أبحث عنه في كل مكان.
+                            أحبك بكل ما تحمله هذه الكلمة من معانٍ عميقة، أحبك بصدق لا يعرف الرياء، بحب يتجاوز الكلمات."
+                            ونظرت إليّ بعينيها الجميلتين وقالت: "وأنا أيضاً أحبك يا Jasim، بحب يملأ قلبي وروحي."
+                        </p>
+                        <span class="timeline-date">لحظة لا تُنسى</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item right" data-animate="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                       
+                        <span class="timeline-date">وعد لا ينتهي</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item left" data-animate="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>اليوم والغد</h3>
+                        <p class="story-text">
+                            واليوم، نعيش كل لحظة كأنها أجمل لحظة في حياتنا. نبني معاً حلماً جميلاً، نرسم معاً لوحة الحياة بألوان الحب والوفاء.
+                            كل يوم يمر يزيد حبنا عمقاً، وكل لحظة نقضيها معاً تصبح ذكرى خالدة في قلوبنا.
+                            Tala هي نصفي الآخر، روحي التي تسكن جسداً آخر، هي الحب الذي لا ينتهي والحنان الذي لا ينضب.
+                            وسنبقى معاً... إلى الأبد، نكتب فصولاً جديدة من قصة حبنا التي لا تنتهي.
+                        </p>
+                        <span class="timeline-date">إلى الأبد</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم كلمات الغزل -->
+    <section id="poetry" class="poetry-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-feather-alt"></i>
+                    كلمات غزل لـ Tala
+                </h2>
+                <p class="section-subtitle">كلمات من القلب... تعجز الحروف عن وصف جمالها</p>
+            </div>
+
+            <div class="poetry-grid">
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>جمالك يا Tala</h3>
+                    <div class="poetry-text">
+                        <p>يا Tala، أنتِ القمر الذي يضيء ليالي الحالمين</p>
+                        <p>أنتِ النجمة التي ترشد التائهين في بحر الحياة</p>
+                        <p>جمالك ليس مجرد ملامح... بل هو نور يشع من روحك الطاهرة</p>
+                        <p>عيناك محيطان من الحنان، وابتسامتك شمس تبدد كل الأحزان</p>
+                        <p>في وجودك تكتمل معاني الجمال، وفي غيابك تفقد الحياة ألوانها</p>
+                    </div>
+                </div>
+
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>حبي لك</h3>
+                    <div class="poetry-text">
+                        <p>أحبك يا Tala بحب يفوق الوصف والخيال</p>
+                        <p>حب يسكن كل خلية في جسدي، كل نبضة في قلبي</p>
+                        <p>أنتِ الحلم الذي أصبح حقيقة، والأمنية التي تحققت</p>
+                        <p>معك أرى الدنيا بألوان أجمل، وأسمع الموسيقى في كل شيء</p>
+                        <p>حبك هو الهواء الذي أتنفسه، والماء الذي يروي عطشي</p>
+                    </div>
+                </div>
+
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-rose"></i>
+                    </div>
+                    <h3>أنتِ الوردة</h3>
+                    <div class="poetry-text">
+                        <p>يا Tala، أنتِ وردة الحب في حديقة قلبي</p>
+                        <p>عطرك يملأ كياني، وجمالك يسحر عقلي</p>
+                        <p>لكنك لست مجرد وردة... بل أنتِ الحديقة كلها</p>
+                        <p>كل لحظة معك هي ربيع جديد، وكل كلمة منك أغنية رائعة</p>
+                        <p>أحميك كما تُحمى أغلى الكنوز، وأعتني بك كأثمن جواهر الدنيا</p>
+                    </div>
+                </div>
+
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>ضياؤك في حياتي</h3>
+                    <div class="poetry-text">
+                        <p>كنت في ظلام دامس قبل أن تأتي إلى حياتي</p>
+                        <p>وعندما جئتِ يا Tala، أضأتِ كل زاوية مظلمة في روحي</p>
+                        <p>أصبحتِ الشمس التي تشرق كل صباح في قلبي</p>
+                        <p>والقمر الذي يسهر معي في ليالي الشوق</p>
+                        <p>بكِ تكتمل حياتي، وبحبك تزدهر أيامي</p>
+                    </div>
+                </div>
+
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>كنزي الثمين</h3>
+                    <div class="poetry-text">
+                        <p>أنتِ يا Tala أثمن ما أملك في هذه الحياة</p>
+                        <p>كنز لا يُقدر بثمن، جوهرة نادرة لا مثيل لها</p>
+                        <p>في وجودك أجد كل ما أبحث عنه من سعادة وطمأنينة</p>
+                        <p>صوتك موسيقى تعزف على أوتار قلبي أجمل الألحان</p>
+                        <p>وضحكتك نغم سماوي يملأ الحياة بهجة وسروراً</p>
+                    </div>
+                </div>
+
+                <div class="poetry-card" data-animate="zoom-in">
+                    <div class="poetry-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>حبنا الأبدي</h3>
+                    <div class="poetry-text">
+                        <p>حبنا يا Tala ليس له بداية ولا نهاية</p>
+                        <p>هو كالنهر الدائم الجريان، والبحر اللامتناهي العمق</p>
+                        <p>سنبقى معاً نكتب أجمل قصص الحب</p>
+                        <p>نرسم أحلى اللوحات بألوان الوفاء والإخلاص</p>
+                        <p>وسيظل حبنا خالداً... يتردد صداه إلى الأبد</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم رسائل الحب -->
+    <section id="messages" class="messages-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope-open-heart"></i>
+                    رسائل حب 
+                </h2>
+                <p class="section-subtitle">كلمات من القلب إلى القلب</p>
+            </div>
+
+            <div class="messages-container">
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-heart message-icon"></i>
+                        <span class="message-title">صباح الحب</span>
+                    </div>
+                    <p class="message-content">
+                        "صباح الخير يا Tala، يا من تجعلين كل صباح أجمل من سابقه. 
+                        أستيقظ كل يوم وأنا أحمد الله على نعمة وجودك في حياتي. 
+                        أنتِ أول فكرة تخطر في بالي عند الصباح، وآخر دعاء أدعوه قبل النوم. 
+                        يا حبيبة قلبي، أسأل الله أن يملأ صباحك بالبهجة والسرور."
+                    </p>
+                    <div class="message-footer">
+                        <span>من Jasim</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-moon message-icon"></i>
+                        <span class="message-title">مساء الحنين</span>
+                    </div>
+                    <p class="message-content">
+                        "في كل مساء، يزداد شوقي إليك يا Tala. 
+                        كلما غابت الشمس، أتذكر أنك أنتِ شمسي التي لا تغيب أبداً. 
+                        أشتاق إليك في كل لحظة، حتى وأنا معك أشتاق لمزيد من قربك. 
+                        تصبحين على خير يا حبيبتي، يا من تسكنين قلبي وروحي."
+                    </p>
+                    <div class="message-footer">
+                        <span>بكل الحب</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-gift message-icon"></i>
+                        <span class="message-title">هدية الحياة</span>
+                    </div>
+                    <p class="message-content">
+                        "يا Tala، أنتِ أعظم هدية أهداني إياها القدر. 
+                        لم أكن أعلم أن الحب بهذا الجمال حتى عرفتك. 
+                        أنتِ علمتني معنى الحب الحقيقي، معنى أن تحب شخصاً بصدق وإخلاص. 
+                        شكراً لك على كل لحظة سعادة، على كل ابتسامة، على كل معنى جميل أضفته لحياتي."
+                    </p>
+                    <div class="message-footer">
+                        <span>بامتنان عميق</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-infinity message-icon"></i>
+                        <span class="message-title">وعد الأبد</span>
+                    </div>
+                    <p class="message-content">
+                        "أعدك يا Tala بأن أظل إلى جانبك دائماً وأبداً. 
+                        سأكون لك السند في الصعاب، والفرح في الأيام الجميلة. 
+                        سأحبك في كل الأوقات، في السراء والضراء، في الفرح والحزن. 
+                        حبي لك ليس مجرد شعور عابر، بل هو قرار اتخذته قلباً وعقلاً... أن أحبك إلى الأبد."
+                    </p>
+                    <div class="message-footer">
+                        <span>إلى الأبدية</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-star message-icon"></i>
+                        <span class="message-title">نجمتي في السماء</span>
+                    </div>
+                    <p class="message-content">
+                        "عندما أنظر إلى السماء يا Tala، أرى نجمة واحدة تلمع أكثر من غيرها... إنها أنتِ. 
+                        أنتِ النجمة التي تضيء سماء حياتي، التي ترشدني في كل خطوة. 
+                        بك أهتدي عندما أضل الطريق، وبحبك أجد القوة لمواجهة كل التحديات. 
+                        أنتِ معجزتي الصغيرة، وعالمي الكبير."
+                    </p>
+                    <div class="message-footer">
+                        <span>بكل إعجاب</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+
+                <div class="message-card" data-animate="slide-up">
+                    <div class="message-header">
+                        <i class="fas fa-dove message-icon"></i>
+                        <span class="message-title">راحة البال</span>
+                    </div>
+                    <p class="message-content">
+                        "معك يا Tala أجد السكينة والطمأنينة التي طالما بحثت عنها. 
+                        أنتِ الملاذ الآمن الذي ألجأ إليه عندما تعصف بي رياح الحياة. 
+                        في حضنك أجد الدفء والأمان، وفي عينيك أرى الحب الصادق. 
+                        أنتِ ليست مجرد حبيبة... أنتِ الحياة ذاتها، أنتِ كل شيء."
+                    </p>
+                    <div class="message-footer">
+                        <span>بكل سلام</span>
+                        <i class="fas fa-heart-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاقتباسات -->
+    <section id="quotes" class="quotes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-quote-right"></i>
+                    اقتباسات عن الحب
+                </h2>
+                <p class="section-subtitle">من أجمل ما قيل في الحب والغزل</p>
+            </div>
+
+            <div class="quotes-grid">
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "الحب ليس النظر إلى بعضنا البعض، بل النظر معاً في نفس الاتجاه"
+                    </p>
+                    <span class="quote-author">أنطوان دو سانت إكزوبيري</span>
+                </div>
+
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "في الحب الحقيقي، الروح تلتقي قبل أن تلتقي الأجساد"
+                    </p>
+                    <span class="quote-author">حكمة عربية</span>
+                </div>
+
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "أحبك بلا حدود... حباً يفوق الخيال ويتجاوز المستحيل"
+                    </p>
+                    <span class="quote-author">من قلب Jasim</span>
+                </div>
+
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "الحب أن تجد في شخص واحد كل ما تبحث عنه في الدنيا"
+                    </p>
+                    <span class="quote-author">حكمة الحياة</span>
+                </div>
+
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "أجمل حب هو الذي يجعلنا أفضل مما كنا عليه"
+                    </p>
+                    <span class="quote-author">مثل شرقي</span>
+                </div>
+
+                <div class="quote-card" data-animate="fade-up">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "Tala، أنتِ القصيدة التي أكتبها كل يوم بدون حبر، بل بنبضات قلبي"
+                    </p>
+                    <span class="quote-author">Jasim</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم معرض الذكريات -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-images"></i>
+                    معرض ذكرياتنا
+                </h2>
+                <p class="section-subtitle">لحظات خالدة محفورة في القلب</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>لحظة اللقاء الأول</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-heart"></i>
+                        <p>أول ابتسامة</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-sun"></i>
+                        <p>يوم مشرق</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-moon"></i>
+                        <p>ليلة رومانسية</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-star"></i>
+                        <p>لحظة سعيدة</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-gift"></i>
+                        <p>مناسبة خاصة</p>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery-note">
+                <i class="fas fa-info-circle"></i>
+                يمكن إضافة الصور ض
+            </p>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-paper-plane"></i>
+                    أرسل رسالة حب
+                </h2>
+                <p class="section-subtitle">شاركنا كلماتك الجميلة</p>
+            </div>
+
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">
+                            <i class="fas fa-user"></i>
+                            الاسم
+                        </label>
+                        <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fas fa-envelope"></i>
+                            البريد الإلكتروني
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">
+                            <i class="fas fa-heart"></i>
+                            رسالتك
+                        </label>
+                        <textarea id="message" name="message" rows="6" placeholder="اكتب رسالتك أو كلماتك الجميلة هنا..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i>
+                        إرسال الرسالة
+                    </button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-heart-circle"></i>
+                        <h3>حب خالد</h3>
+                        <p>نحن نؤمن بأن الحب الحقيقي يدوم إلى الأبد</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-infinity"></i>
+                        <h3>قصة لا تنتهي</h3>
+                        <p>كل يوم نكتب فصلاً جديداً من حكاية حبنا</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-star"></i>
+                        <h3>حلم يتحقق</h3>
+                        <p>معاً نحقق كل أحلامنا ونبني مستقبلنا</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-heart"></i>
+                    <h3>Jasim & Tala</h3>
+                    <p>حكاية حب </p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#story">قصتنا</a></li>
+                        <li><a href="#poetry">كلمات الغزل</a></li>
+                        <li><a href="#messages">رسائل الحب</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>تابعونا</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    <i class="fas fa-heart"></i>
+                    صُنع بكل حب من المهندس جاسم السيباوي © 2025 Jasim & Tala
+                    <i class="fas fa-heart"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- زر العودة للأعلى -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="العودة للأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
